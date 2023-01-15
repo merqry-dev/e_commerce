@@ -20,62 +20,65 @@
       </div>
 
       <div id="navigation_buttons">
-        <a class="button_header" href="cart.html">Cart</a>
-
-        <a class="button_header" href="sell.html">Sell</a>
-
-        <a class="button_header" href="loginregister.html">Login/Register</a>
+        <div class="button_header">
+          <a href="cart.html">Cart</a>
+        </div>
+        <div class="button_header">
+          <a href="sell.html">Sell</a>
+        </div>
+        <div class="button_header">
+          <a href="loginregister.html">Login/Register</a>
+        </div>
       </div>
     </header>
     <main>
-      <div>
-        <h2>Cart</h2>
-      </div>
+      <div class="cart_page">
+        <div class="cart_product">
+          <p>
+            <img
+              src="images\pexels-mathias-reding-7085826.jpg"
+              alt="Stock image of a book"
+              width="60"
+            />
+            <p>geography book</p>
+          <div class="cart_amount">
+            <button class="plus-minus-buttons">-</button>
+            <p>1</p>
+            <button class="plus-minus-buttons">+</button>
+          </div>
+        </div>
 
-      <div>
-        <p>
-          <img
-            src="images\pexels-mathias-reding-7085826.jpg"
-            alt="Stock image of a book"
-            width="60"
-          />
-          Geography Book
-          <button>-</button>
-          1
-          <button>+</button>
-        </p>
-      </div>
-
-      <div>
-        <p>
+        <div class="cart_product">
           <img
             src="images\pexels-karolina-grabowska-4210787.jpg"
             alt="Stock image of a pen and notebook"
             width="60"
           />
-          Pen and notebook combo
-          <button>-</button>
-          3
-          <button>+</button>
-        </p>
-      </div>
+          <p>Pen and Notebook combo</p>
+          <div class="cart_amount">
+            <button class="plus-minus-buttons">-</button>
+            <p>3</p>
+            <button class="plus-minus-buttons">+</button>
+          </div>
+        </div>
 
-      <div>
-        <p>
+        <div class="cart_product">
           <img
             src="images\pexels-tuur-tisseghem-812264.jpg"
             alt="Stock image of a macbook air"
             width="60"
           />
-          Laptop
-          <button>-</button>
-          1
-          <button>+</button>
-        </p>
-      </div>
+          <p>Laptop</p>
+          <div class="cart_amount">
+            <button class="plus-minus-buttons">-</button>
+            <p>1</p>
+            <button class="plus-minus-buttons">+</button>
+          </div>
+        </div>
 
-      <div>
-        <button>Go to Check-out</button>
+        <a class="button_header" id="check_out_button" href="Check-out.html"
+          >Go to Check Out</a
+        >
       </div>
     </main>
   </body>
