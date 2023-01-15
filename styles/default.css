@@ -155,7 +155,7 @@ main {
   text-align: center;
 }
 
-#sell_form {
+.sell_form {
   align-self: center;
   margin-top: 10vh;
   width: 40em;
@@ -197,3 +197,9 @@ main {
 #product_info {
   margin-left: 7em;
 }
+
+#login_main {
+  flex-direction: row;
+  justify-content: space-around;
+}
+
