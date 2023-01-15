@@ -177,3 +177,23 @@ main {
   margin-right: 4.2em;
   margin-bottom: 1em;
 }
+
+#product_main {
+  display: flex;
+  flex-direction: column;
+}
+
+#product_image {
+  grid-area: picture;
+  height: 35em;
+}
+
+#top_row {
+  margin-top: 1em;
+  display: flex;
+ 
+}
+
+#product_info {
+  margin-left: 7em;
+}
