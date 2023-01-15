@@ -104,13 +104,21 @@ main {
   border-radius: 1em;
 }
 
-#search_field {
+.search_field {
   all: unset;
   font-family: "Roboto", sans-serif;
   font-size: 1.5em;
   color: var(--text-color);
+  background-color: var(--accent-color);
+  border-radius: 1em;
   height: 100%;
   width: 97%;
+}
+
+.sell_field .search_field {
+  width: 50%;
+  height: 70%;
+  align-self: center;
 }
 
 ::placeholder {
@@ -145,4 +153,27 @@ main {
 .product_name {
   font-size: 1.3em;
   text-align: center;
+}
+
+#sell_form {
+  align-self: center;
+  margin-top: 10vh;
+  width: 40em;
+  height: 40em;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.sell_field {
+  width: 25em;
+  display: flex;
+  justify-content: space-between;
+}
+
+#picture_preview {
+  width: 60px;
+  margin-right: 4.2em;
+  margin-bottom: 1em;
 }
