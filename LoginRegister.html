@@ -11,6 +11,8 @@
       href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
       rel="stylesheet"
     />
+
+    <script src="scripts\loginForm.js"></script>
     <title>Login</title>
   </head>
   <body>
@@ -28,10 +30,10 @@
       </div>
     </header>
     <main id="login_main">
-      <div class="sell_form">
+      <form class="sell_form">
         <h2>Login:</h2>
         <div class="sell_field">
-          <p>username or E-Mail:</p>
+          <p>userID or E-Mail:</p>
           <input type="text" class="search_field" />
         </div>
         <div class="sell_field">
@@ -39,51 +41,61 @@
           <input type="text" class="search_field" />
         </div>
         <button class="button_header">submit</button>
-      </div>
-      <div class="sell_form">
+      </form>
+      <form id="registerForm" class="sell_form">
         <h2>Register:</h2>
         <div class="sell_field">
-          <p>username:</p>
-          <input type="text" class="search_field" />
+          <p>userID:</p>
+          <input name="userID" type="text" class="search_field" />
         </div>
+        <p id="idMessage"></p>
         <div class="sell_field">
           <p>E-Mail address:</p>
-          <input type="text" class="search_field" />
+          <input name="email" type="text" class="search_field" />
         </div>
+        <p id="emailMessage"></p>
         <div class="sell_field">
           <p>password:</p>
-          <input type="text" class="search_field" />
+          <input name="password" type="password" class="search_field" />
         </div>
+        <p id="passwordMessage"></p>
         <div class="sell_field">
           <p>Name:</p>
-          <input type="text" class="search_field" />
+          <input name="name" type="text" class="search_field" />
         </div>
+        <p></p>
         <div class="sell_field">
           <p>Address:</p>
-          <input type="text" class="search_field" />
+          <input name="address" type="text" class="search_field" />
         </div>
+        <p></p>
         <div class="sell_field">
           <p>Country:</p>
-          <input type="text" class="search_field" />
+          <input name="country" type="text" class="search_field" />
         </div>
+        <p></p>
         <div class="sell_field">
           <p>ZIP Code:</p>
-          <input type="text" class="search_field" />
+          <input name="zipCode" type="text" class="search_field" />
         </div>
+        <p></p>
         <div class="sell_field">
           <p>Sex:</p>
-          <input type="text" class="search_field" />
+          <input name="sex" type="text" class="search_field" />
         </div>
+        <p></p>
         <div class="sell_field">
           <p>Language:</p>
-          <input type="text" class="search_field" />
+          <input name="language" type="text" class="search_field" />
         </div>
+        <p></p>
         <div class="sell_field">
           <p>About/Bio:</p>
-          <input type="text" class="search_field" />
+          <input name="bio" type="text" class="search_field" />
         </div>
-        <button class="button_header">submit</button>
-      </div>
+        <p></p>
+        <input type="submit" class="button_header" />
+      </form>
     </main>
   </body>
 </html>
